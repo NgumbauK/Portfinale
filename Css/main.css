@@ -1,0 +1,160 @@
+/*This is the base css file*/
+.nav {
+    background-color: #001064;
+    height: 50PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+
+
+.nav-link {
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        color: white;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        margin: 0 0.5em;
+        padding: 0.2em;
+        transition: ease-out 1s all;
+    
+}
+.drive{
+    justify-content: center;
+    font-size: 50px;
+    width: 100; height: 50;
+}
+
+.body{
+    background-color: rgb(23, 134, 116);
+}
+.main{
+    background-color: rgb(117, 224, 224);
+}
+.container{
+    background-color: rgb(28, 148, 148);
+}
+
+.img{
+ float: right;
+ display: block;
+ margin-left: auto;
+ clear: right;
+ 
+
+}
+
+.navbar{
+    background-color: #001064;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    position: relative;
+    opacity: 0.8;
+    width: 100%;
+}
+.ftprojects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    border:5px solid #555;
+}
+.projects{
+    border: rgb(33, 9, 170);
+}
+ .btn{
+     background-color: darkblue;
+     color: white;
+ }
+ .btn:hover{
+     background-color: rgb(240, 239, 239);
+     color: black;
+ }
+
+.jpg{
+    border:5px solid #555;
+}
+
+.nav-link:hover {
+background-color: aqua;
+color: white;
+
+}
+/*xtra small devices*/
+@media screen and(max-width:768px) {
+    #navbar-toggler{
+        display: block;
+    }
+    
+}
+
+
+footer{
+    background-color: #5f5fc4;
+}
+
+footer a {
+ color: black;
+}
+ 
+
+
+.social{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between 0.7em;
+    font-size: 45px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .number{
+      justify-content: right;
+  }
